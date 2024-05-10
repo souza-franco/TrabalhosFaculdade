@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(214, 214, 214);
@@ -29,14 +33,14 @@ nav > a {
 
 .imagem1 {
   padding-top: 20px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
 
 footer {
   background: rgb(102, 102, 102);
-  margin-top: 10px;
-  padding: 1px;
+  padding: 5px;
 }
 
 nav a:hover {
@@ -59,28 +63,22 @@ nav a:hover {
   height: 250px;
   border-radius: 50%;
   text-align: center;
-  margin-right: 60px;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  margin: auto;
+  margin-inline: 5px;
+  padding-top: 7px;
+  padding-bottom: 20px 
 }
 
-/*CSS DA FORMAÇÃO ABAIXO*/
+.teste2 {
+  background: #d42020;
+}
+
+/*CSS DA FORMAÇÃO*/
 h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
   background: #e6e6e6;
 }
-/*IMAGEM*/
-.formacao {
-  height: 200px;
-  padding-left: 100px;
-}
 
-.formacao2 {
-width: 1000px;
 
-  
-
-  background: #d42020;
-}
