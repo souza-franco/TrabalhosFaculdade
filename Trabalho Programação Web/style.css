@@ -39,6 +39,8 @@ nav > a {
 
 
 footer {
+  max-width: 1290px;
+  margin: auto;
   background: rgb(102, 102, 102);
   padding: 5px;
 }
@@ -50,6 +52,8 @@ nav a:hover {
 }
 
 .sobremim {
+  max-width: 800px;
+  margin: auto;
   background: #ffffff;
   padding: 10px 250px 10px 250px;
   text-align: justify;
@@ -57,6 +61,8 @@ nav a:hover {
 .sobremim > p {
   font-size: 17px;
   font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .teste, .leide, .ana, .alice {
@@ -70,15 +76,51 @@ nav a:hover {
 }
 
 .teste2 {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 250px 10px 250px;
   background: #d42020;
 }
 
 /*CSS DA FORMAÇÃO*/
-h2 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
+.formacao {
+  padding-top: 20px;
+  height: 800px;
+  max-width: 1400px;
+  margin: auto;
+  background-color: #d42020;
+}
+
+.img {
+float: left;
+padding-right: 100px;
+height: 200px;
+width: 200px;
+margin-left: 20px;
+margin-top: ;
+}
+
+.conteudo {
+  float: left;
+  height: 400px;
+  width: 800px;
   background: #e6e6e6;
+
+}
+
+.mh {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ed {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.li {
+  padding-left: 36px;
 }
 
 
